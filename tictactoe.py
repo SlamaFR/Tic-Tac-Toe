@@ -227,8 +227,8 @@ def left_click(ev: tuple):
 
 def build_grid():
     grid = list()
-    for _ in range(BOARD_WIDTH):
-        grid.append([0] * BOARD_HEIGHT)
+    for _ in range(BOARD_HEIGHT):
+        grid.append([0] * BOARD_WIDTH)
     return grid
 
 
